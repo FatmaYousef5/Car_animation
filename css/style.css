@@ -1,0 +1,126 @@
+.div1 {
+    position: absolute;
+
+    animation-name: change;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes change {
+    0% {
+        left: 500px;
+    }
+
+    100% {
+        left: 1000px;
+    }
+}
+
+.div2 {
+    position: absolute;
+
+    animation-name: change1;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+
+@keyframes change1 {
+    0% {
+        right: 500px;
+    }
+
+    100% {
+        right: 1000px;
+    }
+}
+
+.div3 {
+    position: absolute;
+    margin: 0 45%;
+    top: 40px;
+    animation-name: change2;
+    animation-duration: 4s;
+}
+
+@keyframes change2 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#p {
+    position: relative;
+    right: 11px;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+#btn {
+    position: relative;
+    right: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(205, 52, 29);
+    border-radius: 8px;
+    border-style: none;
+    width: 130px;
+    height: 30px;
+}
+
+.divparent1{
+    position: relative;
+    top: 300px;
+}
+
+.divparent2{
+    position: relative;
+    top: 600px;
+}
+
+#p1{
+    position: relative;
+    right: 0px;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+#btn1{
+    position: relative;
+    right: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    border-style: none;
+    width: 130px;
+    height: 30px;
+}
+
+#p2{
+    position: relative;
+    right: 0px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+#btn2{
+    position: relative;
+    right: 15px;
+    font-size: 15px;
+    font-weight: 550;
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+    border-style: none;
+    width: 130px;
+    height: 30px;
+}
